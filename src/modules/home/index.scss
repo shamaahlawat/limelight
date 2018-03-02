@@ -1,0 +1,112 @@
+@import "../../data/assets/style/index.scss";
+
+.homeContainer {
+    color: $white;
+    margin-top: 50px;
+    background-image: url("./data/assets/img/limelight.png");
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .heading {
+        font-size: 36px;
+    }
+
+    .description {
+        font-size: 16px;
+        font-family: $font-source;
+    }
+
+    .button {
+        border-radius: 25px;
+        background-color: rgb(224, 90, 91);
+        color: rgb(255, 255, 255);
+        font-weight: 900;
+        width: 150px;
+        padding: 10px 0;
+    }
+}
+
+.testimonial {
+    color: $white;
+    background-image: url("./data/assets/img/testimonial.jpg");
+    min-height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .profile {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-image: url("./data/assets/img/shama1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .tarun {
+        background-image: url("./data/assets/img/tarun.jpg") !important;
+    }
+
+    .ali {
+        background-image: url("./data/assets/img/ali.png") !important;
+    }
+
+    .name {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .profession {
+        font-size: 14px;
+    }
+
+    .description {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .ant-carousel .slick-dots {
+        bottom: -50px;
+    }
+}
+
+.sansPro {
+    font-family: $font-source;
+}
+
+.productOverview {
+    background-image: url("./data/assets/img/glass_background.jpg");
+    min-height: 1000px;
+
+    .product {
+        color: black;
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    .aboutProduct {
+        color: #7c7c7c;
+        font-size: 18px;
+        padding-bottom: 120px;
+    }
+
+    .rightGlass {
+        background-image: url("./data/assets/img/sunglass.png");
+        min-height: 600px;
+        background-repeat: no-repeat;
+        background-position: right;
+        margin-top: 100px;
+    }
+     .leftGlass {
+        background-image: url("./data/assets/img/sunglass.png");
+        min-height: 600px;
+        background-repeat: no-repeat;
+        background-position: left;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .productDescription{
+        min-height:230px;
+    }
+}

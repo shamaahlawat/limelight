@@ -1,0 +1,209 @@
+@import "../../data/assets/style/colors.scss";
+@import "../../data/assets/style/variables.scss";
+
+.appHeaderContainer {
+    z-index: 1000;
+    position: fixed !important;
+    width: 100%;
+   
+    .navbar {
+        border-radius: 0px !important;
+        font-size: $font-size-xs !important;
+    }
+
+    .navbar-header {
+        img {
+            position: absolute;
+            max-height: 120px;
+            box-shadow: 0 2px 4px 0 rgba(87, 87, 87, 0.5);
+        }
+        .companyName{
+            color:white !important;
+            font-weight:900;
+            font-size:30px;
+        }
+    }
+
+    .navbar-inverse {
+        // background-color: #E05A5B !important;
+        background-color: #ce4439 !important;
+        border: $primary !important;
+        color: $white !important;
+
+        .navbar-nav li a {
+            color: $white !important;
+        }
+    }
+
+    .circle {
+        width: 4px;
+        height: 4px;
+        border-radius: 50px;
+        background-color: $white;
+        margin-top: 21px;
+        margin-bottom: 15px;
+    }
+
+    .active {
+        border-bottom: 3px solid white !important;
+        background-color: #e05a5b !important;
+    }
+
+    .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+        // background: $white !important;
+        // color: black!important;
+        background:#e05a5b !important;
+    }
+
+    .dropdown-menu {
+        background-color: #45497a !important;
+    }
+
+    .dropdown-menu > li > a:hover {
+        background-color: #45497a !important;
+        opacity: 0.9;
+    }
+
+    .modal {
+        font-family: PoiretOne;
+        font-size: 30px !important;
+        line-height: 1.33;
+        text-align: center;
+        color: #45497a;
+    }
+
+    .Nav {
+        .modal {
+            .modal-title p {
+                font-family: $poiret;
+                font-size: 30px !important;
+                line-height: 1.33;
+                text-align: center;
+                color: $primary !important;
+            }
+        }
+    }
+
+    .ant-modal-title {
+        font-size: 30px;
+    }
+
+    .modalParagraph {
+        font-size: 30px !important;
+    }
+}
+
+.mobileNo {
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.1);
+    border: solid 1px rgba(31, 43, 68, 0.3);
+    font-size: 18px;
+    line-height: 2.22;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: rgba(117, 117, 117, 0.5);
+}
+
+.or {
+    font-size: 18px;
+    color: #757575;
+    margin: 0 20px;
+}
+
+.button {
+    border-radius: 5px;
+    background-color: rgba(117, 117, 117, 0.2);
+    font-family: $font-josefin;
+    font-size: 18px;
+    text-align: center;
+    color: #757575;
+}
+
+.loginWithFacebook {
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: solid 1px #4069ac;
+    font-family: $font-josefin;
+    font-size: 18px;
+    color: #4069ac;
+    padding: 0 30px;
+}
+
+.loginWithgoogle {
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: solid 1px #ef403b;
+    font-family: $font-josefin;
+    font-size: 18px;
+    color: #ef403b;
+    padding: 0 30px;
+}
+
+.login {
+    margin-left: 100px;
+}
+
+.border-radius-5 {
+    border-radius: 5px;
+}
+
+.ant-modal-header {
+    border-bottom: none !important;
+}
+
+.commonHeight {
+    height: 52px;
+}
+
+.loginSignup {
+    font-family: $poiret;
+    font-size: 30px;
+    line-height: 1.33;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #45497a;
+    padding: 10px;
+}
+
+.yellowBorder {
+    border-bottom: solid 1px #fdcf87;
+    width: 245px;
+}
+
+.greyBorder {
+    border-bottom: solid 1px #d1d4d9;
+    width: 190px;
+}
+
+.ant-input {
+    border: none !important;
+    font-size: 18px !important;
+}
+
+.borderNone {
+    border: none !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar {
+        .circle {
+            display: none;
+        }
+    }
+
+    .active {
+        width: 145px;
+    }
+
+    .login {
+        margin-left: 3px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 996px) {
+    .container {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
