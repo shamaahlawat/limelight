@@ -20,6 +20,12 @@ body {
 }
 
 /*---------------------  BASIC COMMON CLASSES -------------------- */
+.mainHeading {
+    color: black;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
 
 .bg-color {
     background-color: #ebecf1;
@@ -147,15 +153,23 @@ body {
     border-top: 1px solid $border-light;
 }
 
-.border-radius-3{
+.border-radius-3 {
     border-radius: 3px;
 }
 
 /*--------------------- FONT CLASSES ----------------------*/
+.font-red {
+    color: $red;
+}
 
 .font-light {
     color: $black;
     opacity: 0.6;
+}
+
+.font-grey {
+    color: #333333;
+    opacity: 0.5;
 }
 
 .font-black {
@@ -165,7 +179,6 @@ body {
 .font-primary {
     color: $primary;
 }
-
 
 .is-font-thin {
     font-weight: $font-thin; //300
@@ -205,6 +218,10 @@ body {
 
 .font-24 {
     font-size: 24px !important;
+}
+
+.font-30 {
+    font-size: 30px;
 }
 
 .font-40 {
@@ -635,8 +652,8 @@ body {
     margin-bottom: 20px;
 }
 
-.b-mrgn-15{
-     margin-bottom: 15px;
+.b-mrgn-15 {
+    margin-bottom: 15px;
 }
 
 .b-mrgn-30 {
@@ -654,8 +671,9 @@ body {
 .b-mrgn-60 {
     margin-bottom: 60px;
 }
-.mrgn-10{
-      margin: 10px;
+
+.mrgn-10 {
+    margin: 10px;
 }
 
 .mrgn-20 {

@@ -1,8 +1,13 @@
 @import "../../data/assets/style/index.scss";
 
+video {
+    width: 100%;
+}
+
 .homeContainer {
     color: $white;
-    margin-top: 50px;
+
+    // margin-top: 50px;
     background-image: url("./data/assets/img/limelight.png");
     min-height: 700px;
     background-repeat: no-repeat;
@@ -29,7 +34,10 @@
 
 .testimonial {
     color: $white;
-    background-image: url("./data/assets/img/testimonial.jpg");
+
+    // background-image: url("./data/assets/img/testimonial.jpg");
+    background: #333333;
+    opacity: 0.9;
     min-height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -98,7 +106,8 @@
         background-position: right;
         margin-top: 100px;
     }
-     .leftGlass {
+
+    .leftGlass {
         background-image: url("./data/assets/img/sunglass.png");
         min-height: 600px;
         background-repeat: no-repeat;
@@ -106,7 +115,60 @@
         margin-top: 100px;
         margin-bottom: 100px;
     }
-    .productDescription{
-        min-height:230px;
+
+    .productDescription {
+        min-height: 230px;
+    }
+}
+
+.aboutusContainer {
+    background-image: url(http://localhost:3000/glass_background.jpg);
+    height: 100vh;
+
+    // background: green;
+    color: white;
+
+    .heading {
+        // color: black;
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    .body {
+        // color: #7c7c7c;
+        font-size: 18px;
+    }
+}
+
+.ourBlogs {
+    .backgroundImage {
+        background: url("../../data/assets/img/blog.png");
+        min-height: 220px;
+        background-size: cover;
+    }
+
+    .date {
+        color: #333333;
+        opacity: 0.5;
+    }
+}
+
+.ourTeam {
+    .cardContent {
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    .backgroundImage {
+        margin-top: 10px;
+        background: url("../../data/assets/img/tarun.jpg");
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 }
